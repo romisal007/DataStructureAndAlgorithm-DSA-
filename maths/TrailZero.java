@@ -8,7 +8,9 @@ class TrailZero {
         int f=fact(n);
         System.out.println("No of trailing zeros:"+trailZero(f)); //works  upto n=12 as n increaces  factorraicl is greateg than limit
         //of int so will give wrong ans use  efficTrailZero method
-        System.out.println("efficTrailZero:"+efficTrailZero(n));  //5pow(k) <= n    ==>  k=log n base 5  ==>  Theata(log(n)  
+        System.out.println("efficTrailZero:"+efficTrailZero(n));   // i = 5^k and loop runs while 5^k <= n
+// => k <= log₅(n)
+// => total iterations = O(log₅ n)
        
     }
     static int fact(int n){
