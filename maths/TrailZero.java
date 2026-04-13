@@ -6,8 +6,9 @@ class TrailZero {
         int n= sc.nextInt();
         System.out.println("Factorial of no:"+fact(n));
         int f=fact(n);
-        System.out.println("No of trailing zeros:"+trailZero(f)); //works  upto n=12 as n increaces  factorraicl is greateg than limit of int so will give wrong ans use  efficTrailZero metho
-        System.out.println("efficTrailZero:"+efficTrailZero(n));
+        System.out.println("No of trailing zeros:"+trailZero(f)); //works  upto n=12 as n increaces  factorraicl is greateg than limit
+        //of int so will give wrong ans use  efficTrailZero method
+        System.out.println("efficTrailZero:"+efficTrailZero(n));  //5pow(k) <= n    ==>  k=log n base 5  ==>  Theata(log(n)  
        
     }
     static int fact(int n){
